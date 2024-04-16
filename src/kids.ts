@@ -4,5 +4,6 @@ export interface Registracija {
     metai:number;
     pastas:string;
     telefonas:string;
-    lytis:string
+    lytis?:string
+    id?:string
 }
